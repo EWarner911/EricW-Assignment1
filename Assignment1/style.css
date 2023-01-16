@@ -1,0 +1,119 @@
+﻿/*general CSS*/
+body {
+    background-color: #4912f6;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color:white;
+}
+
+.giantDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    color:white;
+}
+
+.centerEntire{
+    margin-left:100px;
+}
+/*end of general CSS*/
+
+/*top of pg*/
+.Try {
+    background: rgb(234,158,61);
+    background: linear-gradient(166deg, rgba(234,158,61,1) 0%, rgba(238,124,56,0.598459366656819) 100%);
+    border-radius: 50px;
+    padding: 10px;
+    width:120px;
+    color: white;
+    border:none;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom:70px; 
+    order:1
+}
+
+.logo {
+    width: 144px;
+    order: 1;
+    flex-grow:1;
+    margin-left:15px;
+}
+
+.sign-in {
+    width: 47px;
+    order:2;
+    padding:10px;
+}
+
+.sign-up{
+    order:3;
+    margin-right:250px;
+    text-decoration-color:white;
+}
+/*top of pg^^^^^^^^^^^*/
+
+/* start of main txt/clout/freetrial */
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-txt {
+    order: 1;
+    margin-top: 19px;
+}
+
+.cloutpic {
+    order: 2;
+    height: 20px;
+    margin-bottom: 30px;
+    width:300px;
+}
+
+.FreeTrial {
+    order: 3;
+}
+
+.FreeButton {
+    background: rgb(234,158,61);
+    background: linear-gradient(166deg, rgba(234,158,61,1) 0%, 
+                rgba(238,124,56,0.598459366656819) 100%);
+    height: 75px;
+    border-radius: 40px;
+    color: white;
+    width: 180px;
+    border:none
+}
+/* end of main txt/clout/freetrial ^^^^^^^ */
+
+/* start of section2*/
+.section2 {
+    order:2;
+}
+
+.pic1 {
+    width: 500px;
+    height: 350px;
+    padding-right: 35px;
+}
+
+.gif1{
+    width:700px;
+    height:400px;
+}
+
+.wannaSee{
+    text-align:center;
+    margin:100px 0px;
+}
